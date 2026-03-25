@@ -32,33 +32,47 @@
 // const isPass = true;
 // console.log(studentName, faculty, gpa, isPass);
 
-// Object
-// In Object also you can add array also
-const details = {
-  name: "rohan Shrestha",
-  faculty: "BSC CSIT",
-  age: 25,
-  address: {
-    city: "Dharn",
-    province: "Koshi",
-  },
-  phone: [981444444, 9811111111],
-};
-console.log(details); //Print all Deatils in Object
-console.log(details.name); // Print Only Name Varibale which is in Object
-console.log(details["name"]); // Print only Name
+// // Object
+// // In Object also you can add array also
+// const details = {
+//   name: "rohan Shrestha",
+//   faculty: "BSC CSIT",
+//   age: 25,
+//   address: {
+//     city: "Dharn",
+//     province: "Koshi",
+//   },
+//   phone: [981444444, 9811111111],
+// };
+// console.log(details); //Print all Deatils in Object
+// console.log(details.name); // Print Only Name Varibale which is in Object
+// console.log(details["name"]); // Print only Name
 
-// // Intiger Number
-// let num1 = 10.5;
-// let num2 = 100.5;
-// let sum = num1 + num2;
-// console.log(sum.toPrecision(4));
+// // // Intiger Number
+// // let num1 = 10.5;
+// // let num2 = 100.5;
+// // let sum = num1 + num2;
+// // console.log(sum.toPrecision(4));
 
-// Array
-// In Array you can store any time of data you can store object, number, string, bolean
-// In Arrary always will be index value.
-const grades = [3, 2, 4, 2.5, 3.9];
-const test = [321, "hello", true, false, { class: 10, faculty: "BCA" }];
-console.log(test);
-console.log(test[0]);
-console.log(test[4]["class"]);
+// // Array
+// // In Array you can store any time of data you can store object, number, string, bolean
+// // In Arrary always will be index value.
+// const grades = [3, 2, 4, 2.5, 3.9];
+// const test = [321, "hello", true, false, { class: 10, faculty: "BCA" }];
+// console.log(test);
+// console.log(test[0]);
+// console.log(test[4]["class"]);
+
+console.log("------------------Operator--------------");
+
+// Operators
+// .1 Arithmetic Operator
+// .2 Relational Operator
+// 3. Logical Operators
+
+// Arithmetic Operator
+// console.log(5 + 6);
+// console.log(15 - 6);
+// console.log(5 * 6);
+// console.log(15 / 6);
+// console.log(15 % 6);

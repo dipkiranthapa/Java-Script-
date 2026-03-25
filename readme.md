@@ -24,3 +24,13 @@
 
 5. Reach
 6. Next.Js
+
+- Variables let, const, var
+
+- Data Type
+
+1. String "Kiran"
+2. Number 1,2,3
+3. Boolen true, false
+4. Object {}
+5. Array []
