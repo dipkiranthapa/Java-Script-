@@ -13,7 +13,7 @@ const address = "Ithari";
 const templateResult = `Hello My Name is ${name} i am ${age} old. I live in ${address}`;
 console.log(templateResult);
 
-//**Destructuring*/
+//**Objecect Destructuring*/
 const course = {
   title: "MERN Stack",
   duration: "3 Months",
@@ -27,6 +27,27 @@ console.log(duration);
 console.log(Instructor);
 console.log(courseFee);
 // Youcan change the veriables also you can see fee: courseFee
+
+
+
+
+const person = {
+name: "dipKiran",
+course: "MERN",
+age:25,
+fee:2500,
+}
+const {name, course, age, fee:schoolFee} = person;
+console.log(schoolFee);
+
+
+
+
+
+
+
+
+
 
 // Array Destructuring
 const students = ["Ram", "Mohan", "Hari"];

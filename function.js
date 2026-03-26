@@ -53,3 +53,19 @@ btn.addEventListener("click", function () {
     index = 0;
   }
 });
+
+// Arrow Function
+// Arrow Function
+const sum = (value1, value2) => {
+  console.log(value1 + value2);
+};
+sum(10, 20);
+
+//function don't have name is called  anonymous Function
+function (){} // Anonymous function
+function ()=>{} // Anonymous Arrow Function
+
+const sub1 = (value1, value2) => {
+  console.log(value1 + value2);
+};
+sub1(10, 20);
